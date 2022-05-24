@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 
 const api = {
@@ -8,7 +9,12 @@ const api = {
 function App() {
   return (
     <div className="App">
-      Hello
+      <main>
+        <div className='search-box'>
+          <input type="text" className='search-bar' placeholder='Search...'>
+          </input>
+        </div>
+      </main>
     </div>
   );
 }

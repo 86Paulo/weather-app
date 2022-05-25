@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 const api = {
   key: "653da8bd8a3eadac10ed6832d5720dfb",
